@@ -15,43 +15,71 @@ p {
   text-align: center;
 }
 
-.seznam_jazyky {
-  text-align: center;
-}
-
-.seznam_ol {
-  display: inline-block;
-  text-align: left;
-}
-
-
-.obrazek_vision_board {
-  border-radius: 50%;
+.vision_board {
   display: flex;
-  flex-basis: 35%;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 50vh;
+}
+
+.seznam_loga {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .programovaci_jazyky {
   display: flex;
   border: solid black;
   flex-direction: column;
-  flex-basis: 300px;
+  flex-basis: calc(100% / 3);
   background-color: lavenderblush;
   border-radius: 3%;
+  flex-wrap: wrap;
+  min-height: 300px;
 }
 
 .ocekavani {
   display: flex;
   border: solid black;
   flex-direction: column;
-  flex-basis: 300px;
+  flex-basis: calc(100% / 3);
   background-color: lavenderblush;
   border-radius: 3%;
+  flex-wrap: wrap;
+  min-height: 300px;
 }
 
-.vision_board {
+.odkazy_kontakt {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-around;
+  border: solid black;
+  flex-direction: column;
+  background-color: lavenderblush;
+  border-radius: 3%;
+  flex-wrap: wrap;
+  flex-basis: calc(100% / 3);
+  text-align: center;
+}
+
+.obrazek_vision_board {
+  border-radius: 50%;
+  display: flex;
+}
+
+.html_obrazek {
+  width: 150px;
+}
+
+.css_obrazek {
+  width: 100px;
+}
+
+.java_script_obrazek {
+  width: 100px;
+}
+
+.react_obrazek {
+  width: 100px;
 }
