@@ -1,0 +1,57 @@
+h1 {
+  font-family: fantasy;
+  font-size: 50;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: fantasy;
+  font-size: medium;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.seznam_jazyky {
+  text-align: center;
+}
+
+.seznam_ol {
+  display: inline-block;
+  text-align: left;
+}
+
+
+.obrazek_vision_board {
+  border-radius: 50%;
+  display: flex;
+  flex-basis: 35%;
+}
+
+.programovaci_jazyky {
+  display: flex;
+  border: solid black;
+  flex-direction: column;
+  flex-basis: 300px;
+  background-color: lavenderblush;
+  border-radius: 3%;
+}
+
+.ocekavani {
+  display: flex;
+  border: solid black;
+  flex-direction: column;
+  flex-basis: 300px;
+  background-color: lavenderblush;
+  border-radius: 3%;
+}
+
+.vision_board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
